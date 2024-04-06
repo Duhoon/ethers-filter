@@ -1,0 +1,28 @@
+{
+  "name": "ethers-event",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc-watch --onSuccess \"node .\"",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.4",
+    "typescript-eslint": "^7.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "express": "^4.19.2",
+    "install": "^0.13.0"
+  }
+}
